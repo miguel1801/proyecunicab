@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-bottom:large dashed;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background: #003566;
+    
+    
+
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.botones{
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background-color: rgba(0,0,0,.7);
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(255,255,255,.6);
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    position: absolute;
+
+}
+
+.botones:hover{
+    cursor: pointer;
+    transform: scale(1.2,1.2);
+    
+}
+
+.atras{
+    left: 2%;
+    top: calc(50% - 70px)
+}
+
+.adelante{
+    left: 2%;
+    top: calc(50% - 70px)
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.titulo1{
+    display: flex;
+    height: 430px ;
+    width: 1387px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.titulo1 h1 {
+    font-size: 50px;
+    color: #FFC300;
+    
+
+}
+
+.titulo1 h2 {
+    font-size: 30px;
+    font-weight: 300px;
+    color: #FFD60A;
+
+}
+
+.info{
+    width: 90%;
+    height: auto;
+    background: #e9ff70;
+    margin: 5% auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.info1{
+    width: 90%;
+    height: auto;
+    background: #e9ff70;
+    margin: 5% auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+.titulo-seccion{
+    text-align: center;
+    color: #000;
+    font-size: 40px;
+    
+}
+
+.mapa1{
+    text-align: center;
+}
+
+.info{
+    width: 90%;
+    height: auto;
+    background: #fefae0;
+    margin: 5% auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.lista{
+    text-align: center;
+    color: #000;
+    
+    
+}
+
+.imagen11{
+    text-align: center;
+    
+}
+
+
+
+
+
+
+
+
+
+nav {
+    background-color: #333;
+    height: 40px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #3d0e61;
+}
+
+.back {
+    background-color: #d00000;
+}
+
+.home {
+    background-color: #283618;
+}
+
+.forward {
+    background-color: #001D3D;
+}
+
+
+.pdfview{
+    margin: auto;
+    display: block;
+    width: 850px;
+    height: 80vh;
+}
