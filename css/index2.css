@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-bottom:large dashed;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background: #EBF2FA;
+    
+    
+
+}
+
+.titulo1{
+    display: flex;
+    height: 430px ;
+    width: 1387px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.titulo1 h1 {
+    font-size: 50px;
+    color: #679436;
+    
+
+}
+
+.titulo1 h2 {
+    font-size: 30px;
+    font-weight: 300px;
+    color: #A5BE00;
+}
+
+.info{
+    width: 90%;
+    height: auto;
+    background: #52b788;
+    margin: 5% auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.titulo-seccion{
+    text-align: center;
+    color: #CCFF33;
+    font-size: 40px;
+    
+}
+
+.lista{
+    text-align: center;
+    font-size: larger;
+    font-style: oblique;
+    color: #fff;
+    
+}
+
+
+nav {
+    background-color: #333;
+    height: 40px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #e9ecef;
+}
+
+.back {
+    background-color: #d00000;
+}
+
+.home {
+    background-color: #283618;
+}
+
+.forward {
+    background-color: #001D3D;
+}
+
+
+header{
+    width: 100%;
+    height: 600px; 
+    margin: 0%;
+
+    background: #1D2B64;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F8CDDA, #1D2B64);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F8CDDA, #1D2B64); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+}
+
+.pdfview{
+    margin: auto;
+    display: block;
+    width: 850px;
+    height: 100vh;
+}
+
+.video{
+    margin: auto;
+    display: block;
+    width: 90%;
+    height: 80vh;
+    text-align: center;
+}
+
+.embevido{
+
+    text-align: center;
+}
